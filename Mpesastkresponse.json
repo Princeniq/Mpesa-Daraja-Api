@@ -1,0 +1,42 @@
+{
+    "Body": {
+        "stkCallback": {
+            "MerchantRequestID": "b54f-471d-93d9-f7f3bf3f7c0e3077938",
+            "CheckoutRequestID": "ws_CO_03032025231230829725640836",
+            "ResultCode": 2001,
+            "ResultDesc": "The initiator information is invalid."
+        }
+    }
+}{
+    "Body": {
+        "stkCallback": {
+            "MerchantRequestID": "bbcd-4a89-bd1a-6ecdc639893b3075079",
+            "CheckoutRequestID": "ws_CO_03032025233320364725640836",
+            "ResultCode": 0,
+            "ResultDesc": "The service request is processed successfully.",
+            "CallbackMetadata": {
+                "Item": [
+                    {
+                        "Name": "Amount",
+                        "Value": 1.00
+                    },
+                    {
+                        "Name": "MpesaReceiptNumber",
+                        "Value": "TC39AF2S1D"
+                    },
+                    {
+                        "Name": "Balance"
+                    },
+                    {
+                        "Name": "TransactionDate",
+                        "Value": 20250303233329
+                    },
+                    {
+                        "Name": "PhoneNumber",
+                        "Value": 254725640836
+                    }
+                ]
+            }
+        }
+    }
+}
